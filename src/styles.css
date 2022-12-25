@@ -1,0 +1,77 @@
+/*First COntainer */
+.firstContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.firstContainer .navp{
+    align-self: stretch;
+}
+/*Navbar  */
+.navp{
+    line-height: 2rem;
+}
+/* for the Intro */
+.introbox {
+    margin-top: 30px;
+}
+.intro {
+    text-align: left;
+}
+/*  */
+/* footer */
+.footer{
+    text-align: center;
+    position:relative;
+    bottom: 0;
+    bottom: 0px;
+    width: 85%;
+    height: 2.5rem;
+}
+/* Blog page  */
+.bigContainer{
+    max-width: 900px;
+}
+.blgheading {
+    color: #82C3EC  ;
+    text-align: center;
+}
+.blgSite{
+    display: flex;
+}
+.blgSite h3{
+    color: #E6DDC4;
+    flex-grow:1;
+    font-size: 1.2rem;
+    margin: right 2vm;;
+}
+.blgDate{
+    color:red;
+    display:flex;
+    white-space: nowrap;
+    margin-right: 1vmax;
+}
+.blgDate .blgMonth{
+    margin-right:0.4rem;
+    
+}
+.blgTime{
+    color:#CB1C8D;
+    display:flex;
+    white-space: nowrap;
+}
+.blgLink{
+    text-decoration: none;
+}
+/*Test */
+.testDivParent{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+.testDiv{
+    width:60%;
+}
+.testDiv h2{
+    color:#82C3EC;
+}
