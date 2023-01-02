@@ -1,11 +1,10 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import Test from "../Test";
 
 
 function About(){
     return  <Container>
-                <Test />
+                <h3>This is gonna be about me, my twitter, podcast, I mean whatnot.</h3>
             </Container>
 };
 
