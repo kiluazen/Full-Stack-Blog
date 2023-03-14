@@ -11,6 +11,7 @@ function Specblg(){
         async function fetchData() {
             const res = await axios.get(url);
             const reqData = await res.data;
+            const encodedData = reqData.replace()
             setPosts(reqData);
         }
         fetchData();
@@ -18,7 +19,7 @@ function Specblg(){
         });
 
 // there is a bug here unlessrendered twice this is not going to be defined I mean assigned the value, So much shit went down here
-    return  <div>
+    return  <div className="blgContent">
             {posts?.map((p)=>{
                 return(
                     <div key = {p._id}>   {/*   I don't know why can't use the map funciton here.because it says can read the undefined. */}

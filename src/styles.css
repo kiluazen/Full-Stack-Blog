@@ -1,5 +1,7 @@
-/*First COntainer */
+/*First Container */
 .firstContainer{
+    height: 100vh;
+    padding: 0 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,17 +22,19 @@
 }
 /*  */
 /* footer */
-.footer{
-    text-align: center;
-    position:relative;
-    bottom: 0;
-    bottom: 0px;
-    width: 85%;
-    height: 2.5rem;
+.footerDiv{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom:0;
 }
 /* Blog page  */
-.bigContainer{
+.blgContainer{
     max-width: 900px;
+    height:100vh;
 }
 .blgheading {
     color: #82C3EC  ;
@@ -62,6 +66,16 @@
 }
 .blgLink{
     text-decoration: none;
+}
+/* Specific Blog */
+.blgContent{
+    max-width: 700px;
+}
+
+/* About Page */
+.aboutContent{
+    max-width: 700px;
+    height: 100vh;
 }
 /*Test */
 .testDivParent{
